@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog</title>
 </head>
 <body>
-    
+    <nav>
+        <h1>Faça uma publicação</h1>
+        <form action="" method="post" id="formulario">
+            <label for="">Titulo</label>
+            <input type="text" id="titulo">
+            <label for="">Descrição</label>
+            <textarea name="" id="descricao"></textarea>
+            <button type="submit" id="btnPostar">Postar</button>
+        </form>
+    </nav>
+    <main>
+        <h2 id="renderizar-titulo"></h2>  
+        <p id="renderizar-descricao"></p>   
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
